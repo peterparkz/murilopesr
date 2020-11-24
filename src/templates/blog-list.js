@@ -45,7 +45,7 @@ class BlogIndex extends React.Component {
                     {node.frontmatter.date}&nbsp;&nbsp;—&nbsp;
                   </span>
                   <span className="post-words">
-                    {node.timeToRead} minute read
+                    {node.timeToRead} min de leitura
                   </span>
                 </div>
               </article>
@@ -59,7 +59,7 @@ class BlogIndex extends React.Component {
               {!isFirst && (
                 <p>
                   <Link to={prevPage} rel="prev" className="newer-posts">
-                    ← Previous Page
+                    ← Página anterior
                   </Link>
                 </p>
               )}
@@ -71,7 +71,7 @@ class BlogIndex extends React.Component {
               {!isLast && (
                 <p>
                   <Link to={nextPage} rel="next" className="older-posts">
-                    Next Page →
+                    Próxima página →
                   </Link>
                 </p>
               )}
