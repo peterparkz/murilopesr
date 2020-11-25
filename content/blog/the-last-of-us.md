@@ -7,7 +7,7 @@ tags:
   - Tom Holland
 autoThumbnailImage: true
 thumbnailImagePosition: left
-thumbnailImage: /images/uploads/i-rest.jpg
+thumbnailImage: /images/uploads/thbr001.jpg
 coverImage: /images/uploads/thbr001.jpg
 ---
 O lançamento do novo jogo da Nau....
