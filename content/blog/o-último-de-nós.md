@@ -8,4 +8,4 @@ coverImage: ''
 ---
 O último da raça humana está entre nós...
 
-![](/images/uploads/thbr001.jpg)
+![null](/images/uploads/thbr001.jpg)
