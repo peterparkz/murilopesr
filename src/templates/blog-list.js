@@ -32,7 +32,7 @@ class BlogIndex extends React.Component {
                       to={node.fields.slug}
                       className="post-thumbnail"
                       style={{
-                        backgroundImage: `url(${node.frontmatter.img.childImageSharp.fluid.src})`,
+                        backgroundImage: `url()`,
                       }}
                     />
                   )}
@@ -105,7 +105,7 @@ export const pageQuery = graphql`
           }
           timeToRead
           frontmatter {
-            date(formatString: "YYYY, MMM DD")
+            date(formatString: "DD, MMM, YYYY")
             title
             img {
               childImageSharp {
