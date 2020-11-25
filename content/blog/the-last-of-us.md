@@ -11,3 +11,5 @@ thumbnailImage: /images/uploads/i-rest.jpg
 coverImage: /images/uploads/thbr001.jpg
 ---
 O lançamento do novo jogo da Nau....
+
+![null](/images/uploads/thbr001.jpg)
