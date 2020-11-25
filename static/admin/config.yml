@@ -9,7 +9,7 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 
 collections:
 
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+  - name: "posts" # Used in routes, e.g., /admin/blog
     label: "Post" # Used in the UI
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -62,7 +62,7 @@ collections:
         name: "coverImage"
         required: false
         widget: "image"
-        default: "/content/blog/"
+        default: "/images/uploads/cover-post.jpg"
         
       - label: "Body"
         name: "body"
