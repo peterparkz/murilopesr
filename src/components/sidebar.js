@@ -14,7 +14,7 @@ const Sidebar = ({ siteMetadata }) => (
             </Link>
           </div>
           <div className="author-name">Murilo</div>
-          <p>Sou UX Designer apaixonado por tecnologia, ciências e jogos.</p>
+          <p>Cientista, UX Designer e apaixonado por jogos, escrevendo sobre meu mundinho e tentando passar um pouco de conhecimento para quem estiver disposto a aprender.</p>
         </div>
       </header>
       <footer>
@@ -24,7 +24,7 @@ const Sidebar = ({ siteMetadata }) => (
             {siteMetadata.social.twitter && (
               <li>
                 <a
-                  href={`https://twitter.com/${siteMetadata.social.twitter}`}
+                  href={`https://twitter.com/peterparkz${siteMetadata.social.twitter}`}
                   target="_blank"
                 >
                   <i className="fa fa-twitter" aria-hidden="true" />
@@ -63,7 +63,7 @@ const Sidebar = ({ siteMetadata }) => (
             )}
             {siteMetadata.social.email && (
               <li>
-                <a href={`mailto:${siteMetadata.social.email}`} target="_blank">
+                <a href={`mailto:murilopesr@gmail.com${siteMetadata.social.email}`} target="_blank">
                   <i className="fa fa-envelope-o" aria-hidden="true" />
                 </a>
               </li>
