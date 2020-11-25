@@ -41,26 +41,6 @@ const Sidebar = ({ siteMetadata }) => (
                 </a>
               </li>
             )}
-            {siteMetadata.social.github && (
-              <li>
-                <a
-                  href={`https://github.com/${siteMetadata.social.github}`}
-                  target="_blank"
-                >
-                  <i className="fa fa-github" aria-hidden="true" />
-                </a>
-              </li>
-            )}
-            {siteMetadata.social.linkedin && (
-              <li>
-                <a
-                  href={`https://linkedin.com/in/${siteMetadata.social.linkedin}`}
-                  target="_blank"
-                >
-                  <i className="fa fa-linkedin" aria-hidden="true" />
-                </a>
-              </li>
-            )}
             {siteMetadata.social.email && (
               <li>
                 <a href={`mailto:murilopesr@gmail.com`} target="_blank">
