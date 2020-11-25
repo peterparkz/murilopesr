@@ -57,6 +57,7 @@ collections:
         name: "thumbnailImage"
         required: false
         widget: "image"
+        default: "${node.frontmatter.img.childImageSharp.fluid.src}"        
 
       - label: "Cover Image"
         name: "coverImage"
