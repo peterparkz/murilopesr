@@ -14,7 +14,7 @@ const Sidebar = ({ siteMetadata }) => (
             </Link>
           </div>
           <div className="author-name">Murilo</div>
-          <p>{siteMetadata.description}</p>
+          <p>Sou UX Designer apaixonado por tecnologia, ciências e jogos.</p>
         </div>
       </header>
       <footer>
