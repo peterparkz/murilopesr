@@ -12,4 +12,4 @@ coverImage: /images/uploads/thbr001.jpg
 ---
 O lançamento do novo jogo da Nau....
 
-![](/images/uploads/thbr001.jpg)
+![null](/images/uploads/thbr001.jpg)
