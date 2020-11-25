@@ -32,7 +32,7 @@ class BlogIndex extends React.Component {
                       to={node.fields.slug}
                       className="post-thumbnail"
                       style={{
-                        backgroundImage: `url()`,
+                        backgroundImage: `url(${node.frontmatter.img.childImageSharp.fluid.src})`,
                       }}
                     />
                   )}
